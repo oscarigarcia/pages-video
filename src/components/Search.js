@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/components/Main.scss";
+import "../styles/components/Main.scss"
 
 const Search = () => (
   <div className="main">
