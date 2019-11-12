@@ -1,8 +1,10 @@
 import React from 'react';
+import { Row,Col } from 'reactstrap';
+
 import '../styles/components/Header.scss';
 
 const Header = () => (
-  <ReactFragment>
+  <div>
     <Row>
       <Col>
         <div className="header">
@@ -28,7 +30,7 @@ const Header = () => (
         </div>
       </Col>
     </Row>
-  </ReactFragment>
+</div>
 );
 
 export default Header;

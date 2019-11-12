@@ -15,8 +15,8 @@ function App() {
       <Categories>
         <Carousel>
           <CarouselItems />
-          <CarouselItems />
-          <CarouselItems />
+          {/* <CarouselItems />
+          <CarouselItems /> */}
         </Carousel>
       </Categories>
       <Footer/>
