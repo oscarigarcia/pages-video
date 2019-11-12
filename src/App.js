@@ -5,6 +5,7 @@ import "./styles/app.scss";
 import Categories from "./components/Categories";
 import CarouselItems from "./components/CarouselItems";
 import Carousel from "./components/Carousel";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <CarouselItems />
         </Carousel>
       </Categories>
+      <Footer/>
     </div>
   );
 }
