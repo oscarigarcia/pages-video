@@ -28,6 +28,7 @@ const CarouselItems = ({ children }) => (
         <p className="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
       </div>
     </Col>
+
   </Row>
 );
 
