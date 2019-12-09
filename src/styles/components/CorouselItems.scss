@@ -1,10 +1,8 @@
-.carousel-item {
+.carousel-items {
   border-radius: 20px;
   overflow: hidden;
   position: relative;
   display: inline-block;
-  width: 200px;
-  height: 250px;
   margin-right: 10px;
   font-size: 20px;
   cursor: pointer;
@@ -12,17 +10,18 @@
   -webkit-transform-origin: center left;
   transform-origin: center left;
 }
+.CardContainer {
+  display: flex;
+  margin-left: 20px;
+}
 
+.logo-social__media {
+  width: 15px;
+  height: 15px;
+}
 .carousel-item:hover ~ .carousel-item {
   -webkit-transform: translate3d(100px, 0, 0);
   transform: translate3d(100px, 0, 0);
-}
-
-.carousel-item__img {
-  width: 200px;
-  height: 250px;
-  -o-object-fit: cover;
-  object-fit: cover;
 }
 
 .carousel-item__details {
@@ -63,4 +62,10 @@
   color: white;
   font-size: 8px;
   margin: 3px 0px;
+}
+
+@media only screen and (max-width: 465px) {
+  .CardContainer {
+    display: block;
+  }
 }
