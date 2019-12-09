@@ -1,35 +1,36 @@
 import React from 'react';
-import { Row, Col } from 'reactstrap';
+import { Col } from 'reactstrap';
 
 import '../styles/components/CorouselItems.scss';
 
-const CarouselItems = ({ children }) => (
-  <Row className="carousel-item">
-    <Col lg={8}>
-      <img
-        className="carousel-item__img"
-        src="https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=750&w=1260"
-        alt=""
-      />
-      <div className="carousel-item__details">
-        <div>
-          <img
-            className="carousel-item__details--img"
-            src="../assets/play-icon.png"
-            alt="Play Icon"
-          />
-          <img
-            className="carousel-item__details--img"
-            src="../assets/plus-icon.png"
-            alt="Plus Icon"
-          />
-        </div>
-        <p className="carousel-item__details--title">Título descriptivo</p>
-        <p className="carousel-item__details--subtitle">2019 16+ 114 minutos</p>
+const CarouselItems = props => {
+  const { cards } = props;
+
+  return (
+    <Col xs={12} lg={12}>
+      <div className="CardContainer">
+        {cards.map(card => (
+          <div className="carousel-items">
+            <iframe
+              className="carousel-item__img"
+              height="304.91"
+              width="100%"
+              src={card.mapAddress}
+              frameBorder="0"
+              title="Dirección iBAN"
+              allowFullScreen
+            />
+            <div className="carousel-item__details">
+              <p className="carousel-item__details--title">{card.title}</p>
+              <p className="carousel-item__details--subtitle">
+                {card.subTitle}
+              </p>
+            </div>
+          </div>
+        ))}
       </div>
     </Col>
-
-  </Row>
-);
+  );
+};
 
 export default CarouselItems;

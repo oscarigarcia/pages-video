@@ -1,6 +1,7 @@
 import React from 'react';
-import { Row,Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
+import RouteMap from '../assets/routemap.png';
 import '../styles/components/Header.scss';
 
 const Header = () => (
@@ -8,11 +9,7 @@ const Header = () => (
     <Row>
       <Col>
         <div className="header">
-          <img
-            className="header__img"
-            src="../assets/logo-platzi-video-BW2.png"
-            alt="Platzi Video"
-          />
+          <img className="header__img" src={RouteMap} alt="Route Map" />
           <div className="header__menu">
             <div className="header__menu--profile">
               <img src="../assets/user-icon.png" alt="" />
@@ -20,7 +17,7 @@ const Header = () => (
             </div>
             <ul>
               <li>
-                <a href="/">Cuenta</a>
+                <a href="/#">Cuenta</a>
               </li>
               <li>
                 <a href="/">Cerrar Sesión</a>
@@ -30,7 +27,7 @@ const Header = () => (
         </div>
       </Col>
     </Row>
-</div>
+  </div>
 );
 
 export default Header;
