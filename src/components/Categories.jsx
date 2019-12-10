@@ -1,11 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import "../styles/components/Categories.scss"
+import '../styles/components/Categories.scss';
 
-
-const Categories = ({children}) => (
+const Categories = ({ children }) => (
   <div className="categories">
-    <h3 class="categories__title">Mis Rutas</h3>
+    <h3 className="categories_title">Mis Rutas</h3>
     {children}
   </div>
 );

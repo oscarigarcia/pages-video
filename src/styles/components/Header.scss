@@ -10,7 +10,7 @@
 }
 
 .header__img {
-  margin-left: 30px;
+  margin-top: 50px;
   width: 200px;
 }
 
@@ -55,4 +55,15 @@ ul:hover {
 .header__menu--profile img {
   margin-right: 8px;
   width: 40px;
+}
+
+.header__img {
+  margin-top: 50px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 465px) {
+  .header__img {
+    margin-left: 73px;
+  }
 }

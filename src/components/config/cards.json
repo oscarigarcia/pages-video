@@ -1,14 +1,52 @@
 {
     "cards": [
         {
-            "url": "los mina",
-            "title": "hospital",
-            "subTitle": "mega centro"
+            "title": "Barrio nuevo -Los minas",
+            "subTitle": "23 minutos de viaje",
+            "background": "barrio-nuevo.png",
+            "link": "https://www.google.com/maps/dir/Barrio+Nuevo/Estaci%C3%B3n+Rosa+Duarte,+L+2B,+Avenida+Fernandez+de+Navarrete,+Santo+Domingo+Este/@18.5313245,-69.8911712,13z/data=!4m14!4m13!1m5!1m1!1s0x8eaf8f5639f4aab5:0x70b4a15a88ef2189!2m2!1d-69.861602!2d18.5537909!1m5!1m1!1s0x8eaf89357a5ca165:0x33d54b7bc833547a!2m2!1d-69.869609!2d18.5103589!3e0"
         },
         {
-            "url": "villa faro",
-            "title": "carretera mendoza",
-            "subTitle": "prueba"
+            "title": "Los mina - Los palmares",
+            "subTitle": "14 minutos de viaje",
+            "background": "los-palmares.png",
+            "link": "https://www.google.com/maps/dir/Estaci%C3%B3n+Rosa+Duarte,+L+2B,+Avenida+Fernandez+de+Navarrete,+Santo+Domingo+Este/Los+Palmares,+Santo+Domingo/@18.5265824,-69.8845786,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8eaf89357a5ca165:0x33d54b7bc833547a!2m2!1d-69.869609!2d18.5103589!1m5!1m1!1s0x8eaf88ac44310b1b:0x51ec51707fdb43e8!2m2!1d-69.8671859!2d18.5427262!3e0"
+        },
+        {
+            "title": "km 9 mella/Charles - Villa mella:",
+            "subTitle": "26 minutos de viaje",
+            "background": "los-rios.png",
+            "link": "https://www.google.com/maps/dir/18.5193054,-69.834856/Mam%C3%A1+Ting%C3%B3,+Avenida+Hermanas+Mirabal,+Santo+Domingo/@18.5198681,-69.8380854,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8eaf88d38ac3acad:0x8818c7f18d7eb183!2m2!1d-69.9011873!2d18.5466132!3e0"
+        },
+        {
+            "title": "Prados de san Luis - Zona Universitaria:",
+            "subTitle": "1h de viaje",
+            "background": "san-luis.png",
+            "link": "https://www.google.com/maps/dir/Prados+de+San+Luis,+Calle+Juan+Pablo+Duarte+Norte,+Santo+Domingo+Este/Zona+Universitaria,+Santo+Domingo/@18.4961087,-69.9304876,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x8eaf869b78254581:0x23327954c18425ec!2m2!1d-69.7973338!2d18.5329105!1m5!1m1!1s0x8ea562785610ab19:0xbee1195f31c9243f!2m2!1d-69.9178114!2d18.4605125!3e0"
+        },
+        {
+            "title": "Bomba de los minas - parada ruta 31",
+            "subTitle": "30 minutos de viaje",
+            "background": "v-faro.png",
+            "link": "https://www.google.com/maps/dir/Bomba+de+Gasolina+Sunix+Los+Mina,+Santo+Domingo+Este/Avenida+la+Pista+1,+Santo+Domingo+Este/@18.5042078,-69.8426457,13z/data=!4m8!4m7!1m2!1m1!1s0x8eaf8885a5126d61:0x22dede0f71a95ec5!1m2!1m1!1s0x8eaf8660ddcfa065:0xb4347d59e78b7a9b!3e0"
+        },
+        {
+            "title": "Rotonda cristo rey - UASD",
+            "subTitle": "23 minutos de viaje",
+            "background": "villa-mella.png",
+            "link": "https://www.google.com/maps/dir/Cristo+Rey,+Santo+Domingo/Registro+UASD,+Santo+Domingo+10105/@18.4805776,-69.9171926,13z/data=!4m8!4m7!1m2!1m1!1s0x8eaf89a6a0be37b9:0x38790f6d5118a53a!1m2!1m1!1s0x8ea562788d4cc389:0x24e8bd20badda966!3e0"
+        },
+        {
+            "title": "km9 mella - Invivienda",
+            "subTitle": "12 minutos de viaje",
+            "background": "invivienda.png",
+            "link": "https://www.google.com/maps/dir/18.5193054,-69.834856/Invivienda,+Santo+Domingo+Este/@18.5174578,-69.8381028,15z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x8eaf865bacfdecab:0xc239ee6608c3e2b9!2m2!1d-69.8210243!2d18.5107216!3e0"
+        },
+        {
+            "title": "La Virgen, Santo Domingo - Centro de los Heroes, Santo Domingo",
+            "subTitle": "1h de viaje",
+            "background": "la-virgen.png",
+            "link": "https://www.google.com/maps/dir/La+Virgen,+Santo+Domingo/Centro+de+los+Heroes,+Santo+Domingo/@18.517515,-69.9595777,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x8eaf8588ab726f3d:0xd534ae5a598e97e3!2m2!1d-69.8567625!2d18.5769742!1m5!1m1!1s0x8ea5626e0c70c41d:0xde7e907b3316b1ff!2m2!1d-69.9261259!2d18.4487459"
         }
     ]
 }
