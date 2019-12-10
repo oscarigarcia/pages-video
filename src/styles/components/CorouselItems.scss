@@ -10,6 +10,13 @@
   -webkit-transform-origin: center left;
   transform-origin: center left;
 }
+
+// .carousel-item__img {
+//   width: 200px;
+//   height: 400px;
+//   object-fit: cover;
+// }
+
 .CardContainer {
   display: flex;
   margin-left: 20px;
@@ -49,7 +56,7 @@
   width: 20px;
 }
 
-.carousel-item:hover .carousel-item__details {
+.carousel-items:hover .carousel-item__details {
   opacity: 1;
 }
 
